@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>UD5 CSS</title>
+    <link rel="stylesheet" href="./style/style.css" />
+  </head>
+  <!-- NO SE PUEDE USAR BR-->
+  <body>
+    <div class="contenedor">
+      <img src="./images/Cancel_White.png" />
+      <h1>Get in touch</h1>
+      <p>Good choice ...</p>
+      <div class="separador"></div>
+      <form action="registro.html TO-DO" target="_blank">
+        <div class="campo__nombre">
+          <label for="nombre" class="campo__nombre--label">Your name please</label>
+          <input type="text" name="nombre" class="campo__nombre--input" />
+        </div>
+        <div class="separador"></div>
+        <div class="campo__correo">
+          <label for="mail" class="campo__correo--label">A contact email</label>
+          <input type="email" name="mail" class="campo__correo--input"/>
+        </div>
+        <div class="separador"></div>
+        <div class="campo__proyecto">
+          <select name="opciones" class="campo__proyecto--select">
+            <optgroup label="What shall we talk about" class="campo__proyecto--titulo">
+              <option value="New_proyect" class="campo__proyecto--opcion" >About a new project</option>
+              <option value="Job_oportunity" class="campo__proyecto--opcion" >About a job oportunity</option>
+              <option value="Leave_coffee" class="campo__proyecto--opcion" >Let's do this over a coffee</option>
+            </optgroup>
+          </select>
+        </div>
+        <div class="separador"></div>
+        <textarea name="observaciones" class="campo__texto">How can I help?</textarea>
+        <div class="separador"></div>
+        <input type="submit" value="Send Message" class="campo__enviar" />
+      </form>
+    </div>
+  </body>
+</html>

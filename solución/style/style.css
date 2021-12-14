@@ -1,0 +1,140 @@
+*{
+    margin:0px;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Tamaños y formato */
+.contenedor {
+    width: 400px;
+    text-align: center;
+    padding: 12px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 32px;
+}
+
+input, label {
+    vertical-align: middle;
+}
+
+form {
+    text-align: justify;
+}
+
+p {
+    font-size: 12px;
+}
+
+img {
+    width: 16px;
+}
+
+.separador {
+    height: 7px;
+}
+
+.campo__nombre {
+    padding: 10px 5px;
+    font-size: 8px;
+}
+
+.campo__nombre--input {
+    height: 100%;
+    width: 250px;
+}
+
+.campo__correo {
+    padding: 10px 5px;
+    font-size: 8px;
+}
+
+.campo__correo--input {
+    height: 100%;
+    width: 250px;
+}
+
+.campo__proyecto--select {
+    padding: 10px 1px;
+    font-size: 10px;
+    font-weight: 500;
+    width: 100%;
+}
+
+.campo__texto {
+    padding: 4px 5px;
+    font-size: 8px;
+    width: 100%;
+    height: 100px;
+    resize: none;
+}
+
+.campo__enviar {
+    width: 100%;
+    height: 50px;
+}
+
+
+
+/* Colores y elementos gráficos */
+h1, p, label, input {
+    color: #FFFFFF;
+}
+
+.campo__nombre {
+    background-color: #550000;
+}
+
+.campo__nombre--input {
+    background-color: #550000;
+    border: 0;
+}
+
+.campo__nombre--label {
+    color: #999999
+}
+
+.campo__correo {
+    background-color: #AA0000;
+}
+
+.campo__correo--label {
+    color: #999999;
+}
+
+.campo__correo--input {
+    background-color: #AA0000;
+    border: 0;
+}
+
+.campo__proyecto {
+    background-color: #AA0000;
+    border: 0;
+}
+.campo__proyecto--select {
+    background-color: #AA0000;
+    color: #FFFFFF;
+    border: 0;
+}
+.campo__proyecto--titulo {
+    color: #FFFFFF;
+}
+
+.campo__texto {
+    background-color: #AA0000;
+    color: #999999;
+    border: 0;
+}
+
+.campo__enviar {
+    background-color: #FFFFFF;
+    border: 0;
+    border-bottom: #550000 3px solid;
+    color: #FF0000;
+}
+
+.contenedor {
+    background-color: #FF0000;
+    border: 5px #550000 solid;
+}
